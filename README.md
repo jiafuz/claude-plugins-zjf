@@ -15,7 +15,9 @@
 
 安装：
 ```
-/plugin install knowledge-brain@claude-plugins-zjf
+/plugin marketplace add https://github.com/jiafuz/claude-plugins-zjf
+/plugin install knowledge-brain@plugins-zjf
+/reload-plugins
 ```
 
 详见 [plugins/knowledge-brain/README.md](plugins/knowledge-brain/README.md)
@@ -25,7 +27,14 @@
 将此插件库添加到 Claude Code：
 
 ```
-/plugin marketplace add /home/jiafu/Projects/Others/claude-plugins-zjf
+/plugin marketplace add https://github.com/jiafuz/claude-plugins-zjf
+```
+
+安装插件：
+
+```
+/plugin install knowledge-brain@plugins-zjf
+/reload-plugins
 ```
 
 ## 插件结构
