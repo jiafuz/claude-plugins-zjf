@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins-zjf",
+  "description": "个人定制的 Claude Code 插件集合 - 知识管理、飞书集成等",
+  "owner": {
+    "name": "Jiafu ZHONG",
+    "email": "jiafu.zhong@uih.cn"
+  },
+  "plugins": [
+    {
+      "name": "knowledge-brain",
+      "description": "个人第二大脑：智能消化入库、索引管理、预加载问答、知识同步。支持飞书知识库集成。",
+      "author": {
+        "name": "Jiafu ZHONG",
+        "email": "jiafu.zhong@uih.cn"
+      },
+      "source": "./plugins/knowledge-brain",
+      "category": "productivity",
+      "keywords": ["knowledge", "lark", "wiki", "second-brain", "digest", "feishu"]
+    }
+  ]
+}
